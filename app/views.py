@@ -4,6 +4,7 @@ from django.shortcuts import redirect
 from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse, HttpResponse
+from django.urls import reverse
 from django.utils import timezone
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import transaction
@@ -334,8 +335,9 @@ def sensor_config(request, device_id):
             else:
                 # We failed to write the configuration to the controller. Show an error.
                 # TODO - Expand this error message to include instructions on resetting the EEPROM.
+                reset_url = reverse('device_eeprom_reset', kwargs={'device_id': sensor_to_adjust.controller.id})
                 messages.error(request, "Failed to write the configuration to the controller. If this continues, try "
-                                        "resetting the EEPROM on the controller.")
+                                        f"<a href=\"{reset_url}\">resetting the EEPROM</a> on the controller.")
                 return redirect('sensor_list', device_id=device_id)
         else:
             messages.error(request, "There was an error processing the form. Please review and resubmit.")
