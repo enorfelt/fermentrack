@@ -35,7 +35,7 @@ To manually install legacy app support, you will need to do the following as roo
 1. Install PHP5 support - `apt-get install php5-common php5-cli php5-fpm`
 2. Disable `apache2` from running at startup - `update-rc.d apache2 disable`
 3. Disable any currently running instance of `apache2` - `service apache2 stop`
-4. Install the appropriate configuration file to `nginx`. An example configuration file can be found [here](https://github.com/thorrak/fermentrack-tools/tree/master/nginx-configs), and must be installed in `/etc/nginx/sites-enabled`
+4. Install the appropriate configuration file to `nginx`. An example configuration file can be found [here](https://github.com/enorfelt/fermentrack-tools/tree/master/nginx-configs), and must be installed in `/etc/nginx/sites-enabled`
 5. Restart PHP5-FPM - `service php5-fpm restart`
 6. Restart Nginx - `service nginx restart`
 

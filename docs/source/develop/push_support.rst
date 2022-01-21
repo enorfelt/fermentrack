@@ -30,7 +30,7 @@ The "generic" push target format is the one recommended for use by developers wh
 support to their apps. This format contains temperature/gravity data collected by Fermentrack for each available
 specific gravity sensor and BrewPi controller.
 
-This format is supported by the `Fermentrack Push Target app <http://github.com/thorrak/fermentrack_push_target>`__ for
+This format is supported by the `Fermentrack Push Target app <http://github.com/enorfelt/fermentrack_push_target>`__ for
 testing/development purposes.
 
 ::

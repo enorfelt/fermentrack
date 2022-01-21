@@ -33,4 +33,4 @@ Flashing a Controller
 
 Additional Controller Configuration
 -----------------------------------
-Fermentrack is designed to work with any implementation of a BrewPi controller including the ESP8266, Arduino, and ESP32 as well as the python-based Fuscus project. While specific information related to each hardware device is beyond the scope of this document, you can view additional information on each of these on the `Fermentrack GitHub Wiki Page <https://github.com/thorrak/fermentrack/wiki>`_
+Fermentrack is designed to work with any implementation of a BrewPi controller including the ESP8266, Arduino, and ESP32 as well as the python-based Fuscus project. While specific information related to each hardware device is beyond the scope of this document, you can view additional information on each of these on the `Fermentrack GitHub Wiki Page <https://github.com/enorfelt/fermentrack/wiki>`_

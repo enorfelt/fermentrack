@@ -19,7 +19,7 @@ If you prefer a slightly less automatic installation method, you can download th
 
 1. Log into your Raspberry Pi
 1. install `git` (Type `sudo apt-install git-core`)
-1. Clone the repo (`git clone https://github.com/thorrak/fermentrack-tools.git`)
+1. Clone the repo (`git clone https://github.com/enorfelt/fermentrack-tools.git`)
 1. Run the install script (`sudo fermentrack-tools/install.sh`)
 1. Follow the prompts on screen. Relaunch the install script if prompted.
 1. Once installation completes, open a web browser and connect to Fermentrack to complete the installation process.

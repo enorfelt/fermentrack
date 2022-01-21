@@ -7,7 +7,7 @@ Want to help? Awesome! There are a number of ways you can get involved in this p
 
 Found a bug or issue (or have a suggestion for how to improve)? Awesome!
 
-The best way to reach out is to either [open an issue on GitHub](https://github.com/thorrak/fermentrack/issues) or discuss your issue or idea in the HomeBrewTalk thread. Both of these are actively monitored, and will help to keep track of progress towards a resolution.
+The best way to reach out is to either [open an issue on GitHub](https://github.com/enorfelt/fermentrack/issues) or discuss your issue or idea in the HomeBrewTalk thread. Both of these are actively monitored, and will help to keep track of progress towards a resolution.
 
 ### Developing Fermentrack
 

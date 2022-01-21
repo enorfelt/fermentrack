@@ -5,7 +5,7 @@ This is a pared down version of the custom brewpi-script that was created for in
 
 BrewPi-Script was originally created by Elco as part of the [BrewPi project](https://github.com/BrewPi/brewpi-script). 
 
-This version has been modified by Thorrak & stone to add additional features, including being upgraded to become Python 3 compatible. 
+This version has been modified by enorfelt & stone to add additional features, including being upgraded to become Python 3 compatible. 
 
 
 Licensing
